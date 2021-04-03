@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0 , 0);
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    border-radius: 50%;
+}
+
+.align{
+align-items: center;
+}
+.context{
+  font-size: 2.6rem;
+  color: #fff;
+  background-color: Transparent;
+  text-decoration:none
+  /*font-family: 'Lobster', cursive;*/
+}
+.link{
+    border: none;
+    outline: none;
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #fff;
+}
+.link:hover {
+    color: orange;
+  }
+.detail{
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: Transparent;
+    /*font-family: 'Lobster', cursive;*/
+  }
+.mybutton {
+    background-size: cover;
+    margin: 0px;
+    width: 150px; 
+    height: 60px;
+}
+.box {
+    width: 100px;
+    height: 2px;
+    background-color: green;
+    padding: 40px;
+    margin: 2px;
+  }
+.title {
+  font-size: 4.6rem;
+  font-family: 'Lobster', cursive;
+}
+.buttomtext{
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.wrapper {
+  background: url("https://images8.alphacoders.com/726/726247.jpg");
+  color: #eee;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  animation: animation 100s linear infinite;
+}
+
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+  
+  .circle-button {
+    border: none;
+    outline: none;
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    
+  }
+  
+  .circle-button:hover {
+    
+    color: rgb(248, 245, 88);
+  }
+  
+  .centre-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
