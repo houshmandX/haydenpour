@@ -5,13 +5,9 @@ body {
     margin: 0px;
     padding: 0px;
     margin-bottom: 0px;
-}
-@media screen and (max-width:960px) {
-    #block-yui_3_17_2_1_1587978949387_4455 {
-        margin-top: -50px;
-        padding-bottom: 0px !important;
-        margin-bottom: -10px;
-    }
+    background-position: 0%, 0%, 50%, 50%;
+background-size: auto, cover;
+background-repeat: no-repeat;
 }
 
 img{
