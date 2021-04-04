@@ -5,14 +5,10 @@ body {
     margin: 0px !important;
     padding: 0px !important;
     margin-bottom: 0px;
-    overflow-y: hidden;
 }
-@media (max-width: 768px) {
-  .hideOverflowOnMobile {
-  overflow: hidden;
-  }
-  }
-
+html {
+  min-height: 100%;
+}
 img{
     border-radius: 50%;
 }
