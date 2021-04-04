@@ -5,6 +5,12 @@ body {
     margin: 0px !important;
     padding: 0px !important;
     margin-bottom: 0px;
+    overflow-x: hidden;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 html {
   min-height: 100%;
@@ -73,7 +79,6 @@ align-items: center;
   perspective: 1000px;
   perspective-origin: 50% 50%;
   animation: animation 100s linear infinite;
-  min-height: 100vh;
 }
 
 @keyframes animation {
