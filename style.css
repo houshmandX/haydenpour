@@ -8,6 +8,19 @@ body {
     overflow-x: hidden;
 }
 
+@media screen and (orientation: portrait){
+  #wrapper{
+    width: 100%;
+  }
+}
+@media screen and (orientation: landscape){
+  #wrapper{
+    position: fixed;
+    width: 2.65em;
+    height: 100%;
+  }
+}
+
 img{
     border-radius: 50%;
 }
