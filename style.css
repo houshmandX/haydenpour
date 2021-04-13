@@ -28,8 +28,17 @@ img{
 .align{
 align-items: center;
 }
+.contextME{
+  font-size: 2.6rem;
+  margin-left: 0.5ch;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  background-color: Transparent;
+  text-decoration:none
+}
 .context{
   font-size: 2.6rem;
+  margin-left: 1ch;
   font-family: 'Times New Roman', Times, serif;
   color: #fff;
   background-color: Transparent;
