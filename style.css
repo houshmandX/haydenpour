@@ -499,6 +499,7 @@ align-items: center;
         font-weight: bolder;
         font-family:cursive;
       }
+      
     }
     .footer {
       position: fixed;
@@ -508,7 +509,7 @@ align-items: center;
       bottom: 0;
       padding-top: 0.5ch;
       width: 100%;
-      height: 12%;
+      height: 15%;
       background-color: rgb(19, 35, 47);
       color: #a0b3b0;
       text-align: center;
@@ -544,6 +545,10 @@ align-items: center;
     .pdfSize{
       width: 1000px;
       height: 2000px;
+    }
+
+    .footer-contactme{
+      margin-top: -2ch;
     }
     
     
