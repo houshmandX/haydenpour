@@ -502,6 +502,9 @@ align-items: center;
       .footer-text{
         font-size: smaller;
       }
+      .footer-contactme{
+        margin-top: 2ch;
+      }
     }
     .footer {
       position: fixed;
